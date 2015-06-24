@@ -1,4 +1,4 @@
-<?php namespace Vendor\Package;
+<?php namespace Jestillore\PhpRouteSms;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -7,15 +7,13 @@ use Illuminate\Support\ServiceProvider;
  *
  * @author: Rémi Collin 
  */
-class PackageServiceProvider extends ServiceProvider {
+class PhpRouteSmsProvider extends ServiceProvider {
 
     /**
      * This will be used to register config & view in 
      * your package namespace.
-     *
-     * --> Replace with your package name <--
      */
-    protected $packageName = 'package';
+    protected $packageName = 'php-route-sms';
 
     /**
      * Bootstrap the application services.

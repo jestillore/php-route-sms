@@ -1,12 +1,11 @@
 {
-    "name": "vendor/package",
+    "name": "jestillore/php-route-sms",
     "description": "",
     "keywords": [],
-    "homepage": "",
     "authors": [
         {
-            "name": "",
-            "email": ""
+            "name": "Jillberth Estillore",
+            "email": "ejillberth@gmail.com"
         }
     ],
     "require": {
@@ -17,7 +16,7 @@
     },
     "autoload": {
        "psr-4": {
-         "Vendor\\Package\\": "src/Package"
+         "Jestillore\\PhpRouteSms\\": "src/PhpRouteSms"
         }
     },
     "license": "MIT"
